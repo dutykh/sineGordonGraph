@@ -19,4 +19,8 @@ And one simulation of a breather propagation in the same network:
 * [D. Dutykh](http://www.denys-dutykh.com/) ([CNRS](http://www.cnrs.fr/insmi/) - [LAMA](http://www.lama.univ-savoie.fr/index.php), [University Savoie Mont Blanc](https://www.univ-smb.fr/), France)
 * [J.-G. Caputo](https://sites.google.com/site/jeanguycaputo/) ([INSA de Rouen](http://www.insa-rouen.fr/), France)
 
+### Acknowledgements
+
+Our Matlab code uses [Color brewer schemes](https://www.mathworks.com/matlabcentral/fileexchange/34087-cbrewer---colorbrewer-schemes-for-matlab).
+
 ---
