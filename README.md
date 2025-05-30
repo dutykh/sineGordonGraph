@@ -2,7 +2,9 @@
 
 This Matlab code solves the classical nonlinear sine-Gordon equation on graphs. For more information on the numerical method and on the interpretation of these results, please, refer to our preprint:
 
-* D. Dutykh & J.-G. Caputo. [Discrete sine-Gordon dynamics on networks](https://hal.archives-ouvertes.fr/hal-01160840/), Submitted, 2016
+* D. Dutykh & J.-G. Caputo. [Wave dynamics on networks: Method and application to the sine-Gordon equation](https://www.sciencedirect.com/science/article/abs/pii/S0168927418301021), Applied Numerical Mathematics, Volume 131, September 2018, Pages 54-71
+
+![Sine-Gordon dynamics on networks](img/sgpic.png)
 
 A couple of numerical simulations of kinks propagating in a closed network are given below:
 
