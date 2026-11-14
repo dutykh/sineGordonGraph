@@ -1,0 +1,53 @@
+# Dr. Denys Dutykh (Mathematics Department, Khalifa University of Science and Technology, Abu Dhabi, UAE)
+cff-version: 1.2.0
+message: "If you use this code, please cite the article given under preferred-citation."
+title: "sineGordonGraph: the sine-Gordon equation on a network, by a leapfrog finite-difference scheme"
+type: software
+authors:
+  - family-names: Dutykh
+    given-names: Denys
+    affiliation: "Khalifa University of Science and Technology"
+    orcid: "https://orcid.org/0000-0001-5247-2788"
+  - family-names: Caputo
+    given-names: Jean-Guy
+    affiliation: "INSA de Rouen"
+repository-code: "https://github.com/dutykh/sineGordonGraph"
+license: GPL-3.0-only
+version: 1.0.1
+date-released: "2026-11-14"
+keywords:
+  - sine-gordon
+  - solitons
+  - nonlinear-waves
+  - wave-propagation
+  - networks
+  - graphs
+  - partial-differential-equations
+  - finite-difference-method
+  - numerical-methods
+  - matlab
+abstract: >-
+  MATLAB code that solves the sine-Gordon equation on a network, a graph whose edges carry the equation and whose
+  vertices join them through the continuity of the solution and Kirchhoff's condition. Each edge carries a uniform
+  lattice on which the equation is advanced by the explicit leapfrog scheme, and the value at each vertex is the mean of
+  the values at the nearest nodes of the edges that meet there. The shipped script computes three kinks of speed 0.95
+  that cross the vertices of a graph with four vertices and six edges, collide and come back.
+preferred-citation:
+  type: article
+  title: "Wave Dynamics on Networks: Method and Application to the Sine-Gordon Equation"
+  authors:
+    - family-names: Dutykh
+      given-names: Denys
+    - family-names: Caputo
+      given-names: Jean-Guy
+  journal: "Applied Numerical Mathematics"
+  volume: 131
+  start: 54
+  end: 71
+  year: 2018
+  month: 9
+  doi: "10.1016/j.apnum.2018.03.010"
+  identifiers:
+    - type: url
+      value: "https://arxiv.org/abs/1506.02405"
+      description: "arXiv preprint"
